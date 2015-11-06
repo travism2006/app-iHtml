@@ -1,0 +1,57 @@
+<input statement structure>
+
+html~create basic light template
+<invalid cmmd> choose either basic or light, not both
+html~create basic template
+..creating basic template
+html~
+============================================================
+<Mode details>
+
+html~chmod
+change mode to:  html
+<valid mode> changing mode to "html"
+html~mode
+current mode:  html
+html~mode help
+Modes	Description
+-----	-----------
+css		Cascading Style Sheets (CSS); accepts valid CSS input
+html	HyperText Markup Language (HTML); acepts valid HTML code
+JS		JavaScript (JS) programming language; accepts valid code
+jQ		jQuery (jQ) programming library extension of JS; accepts JS command input
+
+Flags
+-----
+[-g]	shows current mode
+[-h]	displays all mode descriptions and related info
+[-l]	lists all valid modes
+
+Related Command
+---------------
+chmod [new_mode]	if valid, switches to 'new_mode'
+ 
+ html~
+============================================================
+<advanced input cmmd sequence>
+
+html~create template -hvy -s chmod css create template -hvy -s
+..creating heavy template
+
+..saving into HTML file name:  sample
+..sample.html created with heavy HTML template
+
+..<valid mode> changing mode to "css"
+..creating heavy template
+
+..saving into CSS file name:  example
+..example.css created with heavy CSS template
+
+css~get file link to sample.html
+..found CSS file:  example.css
+..linking "example.css" to "sample.html"
+..DONE
+
+css~
+**display line number in "sample.html" where <link> links it to "example.css"**
+============================================================
